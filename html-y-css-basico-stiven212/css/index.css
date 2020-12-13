@@ -1,0 +1,106 @@
+body{
+	background-color: #555555;
+	font-family: Arial, sans-serif;
+}
+.main-container{
+	width: 1070px;
+	margin: 0 auto;
+
+
+}
+header{
+	color: #ffffff;
+	padding-top: 30px;
+}
+header h1,
+header h2{
+	margin: 0;
+	font-weight: bold;
+}
+header h2{
+	color: #cccccc;
+	padding-bottom: 1em;
+}
+
+section div{
+
+}
+
+nav{
+	background: rgb(255,215,0);
+	background: linear-gradient(180deg, rgba(255,125,0,1) 49%, rgba(255,192,23,1) 100%);
+	box-shadow: 1px 2px 20px black;
+}
+nav ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+nav ul li{
+	display: flex;
+	align-items: center;
+}
+nav ul li a{
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 15px 15px;
+	display: flex;
+}
+.content-wrapper{
+	background-color: #ffffff;
+	display: flex;
+	 	box-shadow: 1px 8px 20px black;
+
+
+}
+ a{
+	color: orange;
+
+}
+article h1{
+	font-size: 30px;
+}
+article{
+	padding-left: 20px;
+	padding-right: 2em;
+	padding-bottom: 1em;
+}
+li{
+	list-style: none;	
+}
+aside{
+
+}
+#aside{
+	border-left: 1px solid gray;
+	padding-right: 6em;
+	padding-left: 1em;
+	margin-bottom: 7em;
+	margin-top: 1em;
+}
+aside ul li{
+	white-space: nowrap;
+}
+aside ul li a{
+	text-decoration: none;
+	font-weight: bold;
+}
+h1{
+	padding-bottom: 1px;
+
+}
+#ulas{
+	margin-left: -1em;
+}
+#imglapiz{
+	border: 2px solid gray;
+	height: 200px;
+	width: 620px;
+}
+footer{
+	padding-top: 10px;
+	text-align: center;
+	color: white;
+}
